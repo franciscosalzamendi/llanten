@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+} /* Estilo Botón Reservar */
+
+.btn:hover {
+    background-color: #0056b3;
+} /* Efecto del Botón */
+
+
+body {
+    background-color: seagreen;
+    color: white;
+    font-family: Dela Gothic One;
+} /* Estilo del fondo, color y tipo de letra del Body */
+
+header {
+    text-align: center;
+    padding: 5px 0;
+} /* Logotipo + Titulo Principal */
+
+#logotitulo img {
+    vertical-align: middle;
+    max-width: 180px;
+    height: auto;
+} /* Estilo Logotipo */
+
+h1 {font-size: 55px;
+
+} /* Estilo del Título Principal */
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 50px;
+} /* Estilo del menu, espaciado entre ellos */
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+} /* Estilo del texto del menu */
+
+nav ul li a:hover {
+    text-decoration: underline;
+} /* Efecto de los Botones del Menu que aparezcan subrayados */
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.imagen-responsive {
+    max-width: 100%;
+    height: auto;
+} /* Estilo de Imagen responsive Bootstrap - posiblemente en un futuro lo cambie por un Carrusel */
+
+#actividades .card {
+    width: 18rem; /* Define el ancho de las Cards */
+    display: inline-block; /* Hace que las Cards esten alineadas horizontalmente */
+    margin: 15px; /* Ajusta el espacio entre las Cards */
+} /* Estilo del Bootstrap Cards */
+
+footer {text-align: center;
+}  /* Estilo Footer*/
+
+
